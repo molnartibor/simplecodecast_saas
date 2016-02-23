@@ -1,0 +1,16 @@
+/* custom stylsheet apply for my page */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+.jumbotron {
+    //gradients
+    background: #b7deed;
+    background: -moz-linear-gradient(top,  #b7deed 0%, #71ceef 30%, #21b4e2 50%, #b7deed 100%);
+    background: -webkit-linear-gradient(top,  #b7deed 0%,#71ceef 30%,#21b4e2 50%,#b7deed 100%);
+    background: linear-gradient(to bottom,  #b7deed 0%,#71ceef 30%,#21b4e2 50%,#b7deed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 );
+
+}
