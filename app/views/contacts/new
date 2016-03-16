@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3"> 
+        <div class="well">
+            <form accept-chraset="UTF-8" action="/contacts" class="new_contact" id="new_contact" method="post">
+            <!--<div style="display:none">...</div> add contact need  -->
+            
+                <div class="form-group">
+                    <label class="from-control" for="contact_name">Name</label>
+                    <input id="contact_name" name="contact[name]" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="contact_email">Email</label>
+                    <input id="contact_email" name="contact[emial]" type="emial" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="contact_comments">Comments</label>
+                    <textarea id="contact_comments" name="contact[comments]" class="form-control"></textarea>
+                </div>
+                <input type="submit" value="Submit" class="btn btn-default">
+            </form>
+        </div>    
+    </div>
+</div>
